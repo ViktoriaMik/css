@@ -1,0 +1,38 @@
+.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: transparent;
+}
+
+.block-row {
+    margin: 0;
+    padding: 0;
+    letter-spacing: -.36em;
+}
+
+.box {
+    display: inline-block;
+    width: 33.33%;
+    height: 20vh;
+}
+
+.embedded {
+    display: inline-flex;
+    position: relative;
+}
+
+.embedded-box {
+    flex-wrap: nowrap;
+    position: absolute;
+    background: beige;
+    width: 100%;
+    color: transparent;
+}
+
+span {
+    width: 100%;
+    height: 30%;
+    color: transparent;
+}
