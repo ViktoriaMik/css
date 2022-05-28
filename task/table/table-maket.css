@@ -1,8 +1,10 @@
-.container {
-    margin: 0;
+html {
+    margin: 0!important;
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    max-width: 100%;
+    width: 100vw;
 }
 
 table {
@@ -10,6 +12,7 @@ table {
     width: 100vw;
     height: 100vh;
     border-spacing: 0 !important;
+    overflow: hidden;
 
 }
 
