@@ -1,0 +1,31 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: transparent;
+    overflow: hidden;
+    }
+
+.row-block{
+    min-height: 20vh;
+    max-height: 20vh;
+    width: 100vw;
+    background: #ba3636;
+    letter-spacing: -.36em;
+    display: inline-block;
+    
+}
+
+.box{
+    display: inline-block;
+    height: 20vh;
+    min-width: 33.33vw;
+}
+.root{
+    display: flow-root;
+}
+.line{
+    line-height: 2.3;
+    width: 100%;
+    display: inline-block;
+}
